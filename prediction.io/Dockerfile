@@ -48,9 +48,9 @@ RUN rm -rf /prediction-io/conf/pio-env.sh*
 
 #SPARK INSTALLATION
 ENV HADOOP_VERSION=2.6 \
-    SPARK_VERSION=1.6.2 \
+    SPARK_VERSION=2.1.3 \
     SPARK_HOME=/prediction-io/vendors/spark \
-    SPARK_DOWNLOAD_SHA512=6af56f20ec8374ee96bddf01e434a02dd4b06308abaed517288d50b2129ce5ab28685ec210ac7b479f5bf4bc50458cdf1a01aedd472df5c2b7d673ca94f8d1d5 \
+    SPARK_DOWNLOAD_SHA512=05ec323e22b3bab84ad710ba4d088c0864ee7593ed4cec8e0dd6c295d76d15f8171b0f42deaff3b21facfa1ba3f2ea6a86db50cb9c0dfe255cfd9279437dd8cd \
     PATH=/prediction-io/vendors/spark/bin:$PATH
 
 RUN mkdir -p /prediction-io/vendors/spark 
